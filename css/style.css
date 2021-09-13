@@ -107,6 +107,10 @@
 
 /* MAP */
 
+#map-canvas{
+  height:500px;
+}
+
 /* Leaflet styles */
 
 .leaflet-pane,
