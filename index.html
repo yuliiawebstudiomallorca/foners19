@@ -23,6 +23,13 @@
  crossorigin="anonymous" />
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Poppins:300,400,500,600,700" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet" media="screen">
+<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"
+integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg=="
+crossorigin=""></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css"
+   integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ=="
+   crossorigin=""/>
+
 </head>
 <body>
 <div class="animsition">
@@ -946,169 +953,170 @@
           <h2 class="section-title">¡VIVIR EN EL LUGAR
             DONDE TODO SUCEDE! </h2>
           <div class="news-carousel owl-carousel">
-           <!-- Map -->
+          
+   </section>
+<!-- / Map ends-->
+       
+     
+   </div>
   
            <section id="contacto">
-            <div id="map-canvas"
-                class="leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom"
-                tabindex="0" style="position: relative; outline: none;">
-                <div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(431.4px, -96px, 0px);">
-                    <div class="leaflet-pane leaflet-tile-pane">
-                        <div class="leaflet-layer " style="z-index: 1; opacity: 1;">
-                            <div class="leaflet-tile-container leaflet-zoom-animated"
-                                style="z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt=""
-                                    role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133541"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(329px, 91px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133541"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(329px, -165px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133540"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(73px, 91px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133542"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(585px, 91px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133541"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(329px, 347px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133540"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(73px, -165px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133542"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(585px, -165px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133540"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(73px, 347px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133542"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(585px, 347px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133539"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(-183px, 91px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133543"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(841px, 91px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133539"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(-183px, -165px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133543"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(841px, -165px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133539"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(-183px, 347px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133543"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(841px, 347px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133538"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(-439px, 91px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133544"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(1097px, 91px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133538"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(-439px, -165px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133544"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(1097px, -165px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133538"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(-439px, 347px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133544"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(1097px, 347px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133537"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(-695px, 91px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133545"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(1353px, 91px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133537"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(-695px, -165px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133545"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(1353px, -165px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133537"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(-695px, 347px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133545"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(1353px, 347px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133536"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(-951px, 91px, 0px); opacity: 1;"><img
-                                    alt="" role="presentation"
-                                    src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133536"
-                                    class="leaflet-tile leaflet-tile-loaded"
-                                    style="width: 256px; height: 256px; transform: translate3d(-951px, 347px, 0px); opacity: 1;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="leaflet-pane leaflet-shadow-pane"></div>
-                    <div class="leaflet-pane leaflet-overlay-pane"></div>
-                    <div class="leaflet-pane leaflet-marker-pane"><img src="img/mapmarker.png"
-                            class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt=""
-                            tabindex="0"
-                            style="margin-left: -40px; margin-top: -94px; width: 80px; height: 95px; transform: translate3d(505px, 200px, 0px); z-index: 200;">
-                    </div>
-                    <div class="leaflet-pane leaflet-tooltip-pane"></div>
-                    <div class="leaflet-pane leaflet-popup-pane"></div>
-                    <div class="leaflet-proxy leaflet-zoom-animated"
-                        style="transform: translate3d(3.41864e+07px, 2.54998e+07px, 0px) scale(131072);"></div>
-                </div>
-                <div class="leaflet-control-container">
-                    <div class="leaflet-top leaflet-left">
-                        <div class="leaflet-control-zoom leaflet-bar leaflet-control"><a
-                                class="leaflet-control-zoom-in leaflet-disabled" href="#" title="Zoom in"
-                                role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out"
-                                href="#" title="Zoom out" role="button" aria-label="Zoom out">−</a></div>
-                    </div>
-                    <div class="leaflet-top leaflet-right"></div>
-                    <div class="leaflet-bottom leaflet-left"></div>
-                    <div class="leaflet-bottom leaflet-right">
-                        <div class="leaflet-control-attribution leaflet-control"><a href="http://leafletjs.com"
-                                title="A JS library for interactive maps">Leaflet</a></div>
-                    </div>
-                </div>
-            </div>
-            <!-- / Map ends-->
-        </section>
- <!-- / Map ends-->
-            
-          
-        </div>
+             <!-- Map -->
+           <div id="map-canvas"
+           class="leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom"
+           tabindex="0" style="position: relative; outline: none;">
+           <div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(431.4px, -96px, 0px);">
+               <div class="leaflet-pane leaflet-tile-pane">
+                   <div class="leaflet-layer " style="z-index: 1; opacity: 1;">
+                       <div class="leaflet-tile-container leaflet-zoom-animated"
+                           style="z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);"><img alt=""
+                               role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133541"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(329px, 91px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133541"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(329px, -165px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133540"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(73px, 91px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133542"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(585px, 91px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133541"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(329px, 347px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133540"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(73px, -165px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133542"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(585px, -165px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133540"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(73px, 347px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133542"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(585px, 347px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133539"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(-183px, 91px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133543"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(841px, 91px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133539"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(-183px, -165px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133543"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(841px, -165px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133539"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(-183px, 347px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133543"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(841px, 347px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133538"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(-439px, 91px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133544"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(1097px, 91px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133538"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(-439px, -165px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133544"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(1097px, -165px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133538"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(-439px, 347px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133544"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(1097px, 347px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133537"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(-695px, 91px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133545"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(1353px, 91px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133537"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(-695px, -165px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99607/133545"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(1353px, -165px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133537"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(-695px, 347px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133545"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(1353px, 347px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99608/133536"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(-951px, 91px, 0px); opacity: 1;"><img
+                               alt="" role="presentation"
+                               src="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/18/99609/133536"
+                               class="leaflet-tile leaflet-tile-loaded"
+                               style="width: 256px; height: 256px; transform: translate3d(-951px, 347px, 0px); opacity: 1;">
+                       </div>
+                   </div>
+               </div>
+               <div class="leaflet-pane leaflet-shadow-pane"></div>
+               <div class="leaflet-pane leaflet-overlay-pane"></div>
+               <div class="leaflet-pane leaflet-marker-pane"><img src="img/mapmarker.png"
+                       class="leaflet-marker-icon leaflet-zoom-animated leaflet-interactive" alt=""
+                       tabindex="0"
+                       style="margin-left: -40px; margin-top: -94px; width: 80px; height: 95px; transform: translate3d(505px, 200px, 0px); z-index: 200;">
+               </div>
+               <div class="leaflet-pane leaflet-tooltip-pane"></div>
+               <div class="leaflet-pane leaflet-popup-pane"></div>
+               <div class="leaflet-proxy leaflet-zoom-animated"
+                   style="transform: translate3d(3.41864e+07px, 2.54998e+07px, 0px) scale(131072);"></div>
+           </div>
+           <div class="leaflet-control-container">
+               <div class="leaflet-top leaflet-left">
+                   <div class="leaflet-control-zoom leaflet-bar leaflet-control"><a
+                           class="leaflet-control-zoom-in leaflet-disabled" href="#" title="Zoom in"
+                           role="button" aria-label="Zoom in">+</a><a class="leaflet-control-zoom-out"
+                           href="#" title="Zoom out" role="button" aria-label="Zoom out">−</a></div>
+               </div>
+               <div class="leaflet-top leaflet-right"></div>
+               <div class="leaflet-bottom leaflet-left"></div>
+               <div class="leaflet-bottom leaflet-right">
+                   <div class="leaflet-control-attribution leaflet-control"><a href="http://leafletjs.com"
+                           title="A JS library for interactive maps">Leaflet</a></div>
+               </div>
+           </div>
+       </div>
+       <!-- / Map ends-->
       </section>
     </div>
 
@@ -1145,6 +1153,8 @@
 </div>
 
 <!-- jQuery -->
+
+
 
 <script src="js/jquery.min.js"></script>
 <script src="js/animsition.min.js"></script>
