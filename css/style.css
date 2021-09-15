@@ -2212,7 +2212,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-clients .building .imagem .floors {
   position: absolute;
-  top: 0px;
+  top: 10px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -2228,7 +2228,6 @@ ul {
   position: relative;
   width: 100%;
   /* 460 × 258 px */
-  height: 258px;
 }
 
 .section-clients .building .imagem .floors li.select {
