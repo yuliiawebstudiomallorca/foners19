@@ -10,6 +10,8 @@ function filterPlansByFloor() {
       .querySelector(".section-clients .area")
       .classList.add("select-plants");
 
+      document.querySelector(".col-plants").classList.remove("d-none");
+
     document.querySelectorAll(".wrapper").forEach((elemRef) => {
       elemRef.classList.remove("show");
 
@@ -26,6 +28,10 @@ function filterPlansByFloor() {
     document
       .querySelector(".section-clients .area")
       .classList.remove("select-plants");
+
+      document.querySelector(".col-plants").classList.add("d-none");
+      document.querySelector(".col-building").classList.remove("opacity-0");
+
 
     document.querySelectorAll(".floors li").forEach((floorRef) => {
       floorRef.classList.remove("select");
