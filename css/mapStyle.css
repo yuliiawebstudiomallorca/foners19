@@ -1,0 +1,393 @@
+.margin {
+  margin: 80px auto;
+}
+
+.section-clients .area {
+  margin-right: -5px;
+  margin-left: -5px;
+  transition: 250ms ease-in-out;
+}
+
+.section-clients .col-building {
+  width: 490px;
+  min-height: calc(100vh - 280px);
+  padding-right: 5px;
+  padding-left: 5px;
+  margin: 0;
+}
+
+.section-clients .col-building .block {
+  position: relative;
+  width: 480px;
+  padding-bottom: 40px;
+  margin: auto;
+}
+
+.section-clients .building {
+  width: 100%;
+  padding: 0 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.pri {
+  color: #72253d;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+/* prettier-ignore */
+h1, h2, h3, h4, h5, h6, p {
+      display: block;
+      margin: 20px auto;
+      line-height: 160%;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+  }
+
+/* prettier-ignore */
+h1, h2, h3, h4, h5, h6 {
+      font-size: 100%;
+      font-weight: normal;
+  }
+
+.section-clients .building .imagem {
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.section-clients .building .imagem .floors {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 250ms ease-in-out;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+ul {
+  list-style: none;
+}
+
+.section-clients .building .imagem img {
+  position: relative;
+  width: 100%;
+  /* 460 × 258 px */
+}
+
+.section-clients .building .imagem .floors li.select {
+  background-color: rgba(159, 122, 61, 0.75);
+}
+
+.section-clients .building .imagem .floors li.select:hover {
+  background-color: rgba(159, 122, 61, 0.75);
+}
+.section-clients .building .imagem .floors li:hover {
+  background-color: rgba(114, 37, 61, 0.75);
+}
+
+.section-clients .building .imagem .floors li {
+  display: flex;
+  width: 50%;
+  transform: translate(90%);
+  height: 18.6%;
+  padding: 1px;
+  cursor: pointer;
+  justify-content: center;
+  transition: 250ms ease-in-out;
+}
+
+.section-clients .building .imagem .floors li.select span {
+  color: #fff;
+}
+.section-clients .building .imagem .floors li:hover span {
+  color: #fff;
+}
+.section-clients .building .imagem .floors li span {
+  display: flex;
+  width: auto;
+  height: 100%;
+  color: #72253d;
+  font-size: 14px;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: 250ms ease-in-out;
+}
+
+.section-clients .building .label {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-clients .building .label span {
+  display: block;
+  width: 48%;
+  color: #72253d;
+  font-size: 10px;
+  text-align: center;
+  line-height: 120%;
+}
+
+.btn.small,
+.wp-block-button a.small,
+section.links .wrapp a.small,
+section.local .links .wrapp a.small {
+  padding: 10px 20px;
+  font-size: 10px;
+}
+.btn.pri,
+.wp-block-button a.pri,
+.wp-block-button.pri a,
+section.links .wrapp a.pri,
+section.local .links .wrapp a.pri {
+  color: #72253d;
+  border: 1px solid #72253d;
+}
+.btn,
+.wp-block-button a,
+section.links .wrapp a,
+section.local .links .wrapp a {
+  display: inline-flex;
+  position: relative;
+  width: auto;
+  height: auto;
+  padding: 20px 50px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: "blair";
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  line-height: normal;
+  /* justify-content: center; */
+  align-items: center;
+  cursor: pointer;
+  transition: 250ms ease-in-out;
+}
+
+.section-clients .col-building .block .block-floor {
+  display: block;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.section-clients .col-building .block .block-floor .faction {
+  display: flex;
+  margin-bottom: 10px;
+  color: #72253d;
+  font-family: "plantin";
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-clients .col-plants {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.section-clients .col-plants .btn-back {
+  display: none;
+  margin: 10px 0;
+  color: #72253d;
+  font-size: 14px;
+}
+
+.section-clients .col-plants .wrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+  display: none;
+  opacity: 1;
+  transition: 250ms ease-in-out;
+}
+
+.section-clients .plant {
+  position: relative;
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #efe4ce;
+}
+
+.section-clients .plant .floor {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 1;
+}
+
+.section-clients .plant .floor h3,
+.section-clients .plant .floor h4,
+.section-clients .plant .floor h5,
+.section-clients .plant .floor h6 {
+  margin: 0;
+}
+
+.section-clients .col-building .block.fixed {
+  position: fixed;
+  top: 0;
+}
+
+.section-clients .plant .state {
+  display: none;
+}
+
+.section-clients .info {
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.section-clients .info dl {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.section-clients .info dl dt {
+  width: 75%;
+  margin: 5px 0;
+  color: #72253d;
+  font-family: "plantin";
+  font-size: 18px;
+}
+
+.section-clients .info dl dd {
+  width: 25%;
+  margin: 5px 0;
+  color: #72253d;
+  font-family: "plantin";
+  font-size: 18px;
+  text-align: right;
+}
+
+.btn.full,
+.wp-block-button a.full,
+section.links .wrapp a.full,
+section.local .links .wrapp a.full {
+  width: 100%;
+}
+.btn.pri,
+.wp-block-button a.pri,
+.wp-block-button.pri a,
+section.links .wrapp a.pri,
+section.local .links .wrapp a.pri {
+  color: #72253d;
+  border: 1px solid #72253d;
+}
+
+.section-clients .plant .imagem {
+  position: relative;
+  overflow: hidden;
+  background-color: #efe4ce;
+}
+
+.section-clients .plant .imagem img {
+  position: relative;
+  width: 100%;
+}
+
+html,
+body,
+div,
+pre,
+form,
+fieldset,
+input,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+textarea,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+blockquote,
+th,
+td,
+abbr,
+article,
+aside,
+audio,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+mark,
+menu,
+meter,
+nav,
+output,
+progress,
+main,
+section,
+summary,
+time,
+video {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 100%;
+}
+
+.btn.pri:hover,
+.wp-block-button a.pri:hover,
+.wp-block-button.pri a:hover,
+section.links .wrapp a.pri:hover,
+section.local .links .wrapp a.pri:hover,
+.btn.pri.active,
+.wp-block-button a.pri.active,
+.wp-block-button.pri a.active,
+section.links .wrapp a.pri.active,
+section.local .links .wrapp a.pri.active {
+  color: #fff;
+  background-color: #72253d;
+}
+
+.show {
+  display: block !important;
+  -webkit-animation: fade 1.5s ease-in-out;
+  animation: fade 1.5s ease-in-out;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.section-clients .section-title {
+  margin-right: 7rem;
+}
