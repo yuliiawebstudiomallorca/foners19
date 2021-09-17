@@ -23,7 +23,7 @@ jQuery(function () {
 			}).addTo(map);
 
 			var customIcon = L.icon({
-				iconUrl: 'img/mapmarker.png',
+				iconUrl: 'images/maplogo.png',
 				iconSize: [80, 95], // size of the icon
 				iconAnchor: [40, 94] // point of the icon which will correspond to marker's location
 			});
