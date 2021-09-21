@@ -1352,6 +1352,7 @@ label.error{
   background-color: #fff;
   margin:0;
   border-radius: 0;
+  display: block;
 }
 
 .navbar .brand{
@@ -1730,7 +1731,7 @@ a.brand:focus{
 }
 
 .section{
-  padding:10.28rem 0;
+  padding:9.28rem 0;
 }
 
 .section-title{
@@ -2152,6 +2153,8 @@ a.brand:focus{
 
 .section-clients .section-title{
   margin-right: 7rem;
+  width: 100%;
+
 }
 
 .client-carousel{
@@ -2736,7 +2739,7 @@ section {
 }
 
 .title-uppercase{
-  text-transform: uppercase;
+  
   letter-spacing: -0.025em;
   line-height: 1.33333;
   margin:0 0 5rem;
@@ -2754,6 +2757,7 @@ section {
 
 .service-list li{
   margin-bottom: 0.7rem;
+  line-height: 2.1428;
 }
 
 .service-list li a{
@@ -4256,7 +4260,7 @@ section {
 }
 
 .footer-flex{
-  margin-top: -4rem;
+ 
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

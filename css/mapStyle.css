@@ -391,3 +391,11 @@ section.local .links .wrapp a.pri.active {
 .section-clients .section-title {
   margin-right: 7rem;
 }
+
+
+ @media only screen and (max-width: 450px) {
+    .section-clients .building {
+        width: 90vw;
+      }
+  }
+
