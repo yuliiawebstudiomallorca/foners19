@@ -116,10 +116,6 @@
 
 /* MAP */
 
-#map-canvas{
-  height:500px;
-}
-
 /* Leaflet styles */
 
 .leaflet-pane,
@@ -2177,91 +2173,57 @@ a.brand:focus{
   padding:6rem 3.28rem 3.28rem;
 }
 
-.image-quote{
-  position: absolute;
-  top:3.28rem;
-  right: 3.28rem;
-}
+/* 3.5  Section Clients */
 
-.client-img{
+section {
   position: relative;
   z-index: 1;
   margin:0 0 -3rem 2.6rem;
   border-radius: 50%;
 }
 
-.client-title{
+.client-carousel {
+  margin-top: 4.8rem;
+}
+
+.client-carousel .client-carousel-item img {
+  display: inline-block;
+  width: auto;
+}
+
+.client-box {
+  position: relative;
+  color: #999;
+  background-color: #fff;
+  padding: 6rem 3.28rem 3.28rem;
+}
+
+.image-quote {
+  position: absolute;
+  top: 3.28rem;
+  right: 3.28rem;
+}
+
+.client-img {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 -3rem 2.6rem;
+  border-radius: 50%;
+}
+
+.client-title {
   letter-spacing: 0;
 }
 
-.client-name{
+.client-name {
   font-size: 1.28rem;
   line-height: 1;
   color: #000;
 }
 
-.client-description{
-  margin:1.5rem 0 0;
+.client-description {
+  margin: 1.5rem 0 0;
   line-height: 1.71em;
-}
-
-
-.client-carousel .owl-nav{
-  right: 0;
-  top: -7.8rem;
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  -o-transform: translateY(0);
-  transform: translateY(0);
-}
-
-.client-carousel .owl-prev{
-  margin-right: 2rem;
-}
-
-
-
-/* 3.6 Section Partners */
-
-
-
-.partner-carousel{
-  margin-top: 10.28rem;
-}
-
-.partner-carousel  .partner-carousel-item img{
-  width: auto;
-  margin:0 auto;
-  opacity: 0.6;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.partner-carousel  .partner-carousel-item:hover img{
-  opacity: 1;
-}
-
-
-
-/* 3.7 Section News */
-
-
-
-.section-news{
-  border-bottom: 1px solid #e1e1e1;
-}
-
-.news-carousel{
-  margin-top: 4.7rem;
-}
-
-.news-item{
-  position: relative;
-}
-
-.news-item img{
-  width: 100%;
 }
 
 .news-hover{
