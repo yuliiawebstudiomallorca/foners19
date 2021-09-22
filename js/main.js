@@ -14,7 +14,7 @@ jQuery(function () {
 		var mapcanvas = document.getElementById("map-canvas");
 		if (mapcanvas) {
 			// Element exists
-			var coord = [39.613700, 3.391598]; // <--- coordinates here
+			var coord = [39.56761094116485, 2.6489924857193787]; // <--- coordinates here
 
 			var map = L.map('map-canvas', { scrollWheelZoom: false }).setView(coord, 18);
 
