@@ -101,9 +101,10 @@ ul {
 .section-clients .building .imagem .floors li:hover {
   background-color: rgba(114, 37, 61, 0.75);
 }
-.section-clients .building .imagem .floors li:first-child {
-  /* height: 26.6%; */
-}
+/* .section-clients .building .imagem .floors li:first-child {
+  height: 26.6%;
+} */
+
 .section-clients .building .imagem .floors li {
   display: flex;
   width: 50%;

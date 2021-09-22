@@ -46,6 +46,10 @@ function filterPlansByFloor() {
         .forEach((elemRef) => {
           elemRef.classList.add("show");
         });
+
+      document
+        .querySelector(".section-clients .area")
+        .classList.add("select-plants");
     }
   });
 }
