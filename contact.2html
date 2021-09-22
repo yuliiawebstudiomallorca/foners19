@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons -->
+<link rel="shortcut icon" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+
+<title>Foners 19</title> 
+
+<!-- Styles -->
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Poppins:300,400,500,600,700" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" media="screen">
+</head>
+<body>
+<div class="animsition">  
+  <div class="wrapper boxed">
+
+    <!-- Content CLick Capture-->
+
+    <div class="click-capture"></div>
+
+    <!-- Sidebar Menu-->
+
+
+    <!-- Navbar -->
+
+    <header class="navbar boxed js-navbar">
+      
+
+      <a class="brand" href="index.html">
+       
+        <div class="brand-info">
+          <div class="brand-name">Foners 19</div>
+          <div class="brand-text">apartamentos</div>
+        </div>
+      </a>
+
+      <div class="social-list hidden-xs">
+        <a href="" class="icon ion-social-twitter"></a>
+        <a href="" class="icon ion-social-facebook"></a>
+        <a href="" class="icon ion-social-linkedin"></a>
+       
+      </div>
+
+      <div class="navbar-spacer hidden-sm hidden-xs"></div>
+
+      <address class="navbar-address hidden-sm hidden-xs">LLÁMANOS: <span class="text-dark">871 71 99 28
+      </span></address>
+    </header>
+    
+    <!-- Pageheader -->
+    
+    <main class="page-header-3">
+      <div class="container">
+        <div class="row">
+          
+          
+        </div>
+      </div>
+    </main>
+
+    <div class="content">
+     
+      <div class="page-inner">
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="section-info">
+                  <div class="title-hr"></div>
+                  <div class="info-title">Contactanos</div>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <form class="js-form">
+                  <div class="row">
+                    <div class="form-group col-sm-6 col-lg-4">
+                      <input class="input-gray" type="text" name="name" required placeholder="Nombre*">
+                    </div>
+                    <div class="form-group col-sm-6 col-lg-4">
+                      <input class="input-gray" type="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group col-sm-12 col-lg-4">
+                      <input class="input-gray" type="text" name="subject" placeholder="Asunto (Opcional)">
+                    </div>
+                    <div class="form-group col-sm-12">
+                      <textarea class="input-gray" name="message"  required  placeholder="Mensaje*"></textarea>
+                    </div>
+                    <div class="col-sm-12"><button type="submit" class="btn-upper btn-yellow btn">Enviar</button></div>
+                  </div>
+                  <div class="success-message"><i class="fa fa-check text-primary"></i> ¡Gracias!. Su mensaje ha sido enviado exitosamente.</div>
+                  <div class="error-message">Lo sentimos, pero algo salió mal.</div>
+                </form>
+              </div>
+
+
+             
+
+
+            </div>
+          </div>
+        </section>
+        
+      </div>
+    
+ <!-- Footer -->
+
+ <footer id="footer" class="footer section"> 
+  <div class="footer-flex">
+    <div class="flex-item">
+      <a class="brand pull-left" href="#">
+     
+        <div class="brand-info">
+          <div class="brand-name">Foners 19</div>
+          <div class="brand-text">apartamentos</div>
+        </div>
+      </a>
+    </div>
+    <div class="flex-item">
+      <div class="inline-block">© Foners 19 2021<br>Todos los derechos reservados</div>
+    </div>
+    
+    
+    
+    <div class="flex-item">
+      <div class="social-list">
+        <a href="" class="icon ion-social-twitter"></a>
+        <a href="" class="icon ion-social-facebook"></a>
+        <a href="" class="icon ion-social-linkedin"></a>
+      
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+</div>
+
+<!-- jQuery -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/animsition.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/sly.min.js"></script>
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyCwVuYiM-83l2IdjpT9uC0lg4jBm8-w4j8"></script> 
+<script src="js/gmap.js"></script>
+
+<!-- Slider revolution -->
+<script src="js/rev-slider/jquery.themepunch.tools.min.js"></script>
+<script src="js/rev-slider/jquery.themepunch.revolution.min.js"></script>
+
+<!-- Slider revolution 5x Extensions   -->
+<script src="js/rev-slider/revolution.extension.actions.min.js"></script>
+<script src="js/rev-slider/revolution.extension.carousel.min.js"></script>
+<script src="js/rev-slider/revolution.extension.kenburn.min.js"></script>
+<script src="js/rev-slider/revolution.extension.layeranimation.min.js"></script>
+<script src="js/rev-slider/revolution.extension.migration.min.js"></script>
+<script src="js/rev-slider/revolution.extension.navigation.min.js"></script>
+<script src="js/rev-slider/revolution.extension.parallax.min.js"></script>
+<script src="js/rev-slider/revolution.extension.slideanims.min.js"></script>
+<script src="js/rev-slider/revolution.extension.video.min.js"></script>
+
+
+<!-- Scripts -->
+<script src="js/scripts.js"></script> 
+<script src="js/rev-slider-init.js"></script>
+</body>
+</html>
