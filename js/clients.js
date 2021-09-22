@@ -40,7 +40,9 @@ function filterPlansByFloor() {
   document.querySelectorAll(".floors li").forEach((floorRef) => {
     if (floorRef.classList.contains("select")) {
       document
-        .querySelectorAll(`.wrapper[data-anchor='${floorRef.classList.item(0)}']`)
+        .querySelectorAll(
+          `.wrapper[data-anchor='${floorRef.classList.item(0)}']`
+        )
         .forEach((elemRef) => {
           elemRef.classList.add("show");
         });
