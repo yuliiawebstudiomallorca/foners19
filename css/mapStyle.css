@@ -49,20 +49,6 @@ h3 {
 
 /* prettier-ignore */
 h1, h2, h3, h4, h5, h6, p {
-<<<<<<< HEAD
-    display: block;
-    margin: 20px auto;
-    line-height: 160%;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-/* prettier-ignore */
-h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
-    font-weight: normal;
-}
-=======
       display: block;
       margin: 20px auto;
       line-height: 160%;
@@ -72,7 +58,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* prettier-ignore */
 
->>>>>>> b4d91ae3bad522dea66005e6f252bc5b6019279b
 
 .section-clients .building .imagem {
   position: relative;
