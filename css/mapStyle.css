@@ -1,5 +1,14 @@
+/* 3.5  Section Clients */
+
 .margin {
   margin: 80px auto;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
 }
 
 .section-clients .area {
@@ -58,7 +67,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .section-clients .building .imagem .floors {
   position: absolute;
-  top: 10px;
+  top: 0px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -74,6 +83,7 @@ ul {
   position: relative;
   width: 100%;
   /* 460 × 258 px */
+  height: 258px;
 }
 
 .section-clients .building .imagem .floors li.select {
@@ -87,6 +97,9 @@ ul {
   background-color:#a5a257;
 
 }
+/* .section-clients .building .imagem .floors li:first-child {
+  height: 26.6%;
+} */
 
 .section-clients .building .imagem .floors li {
   display: flex;
@@ -388,28 +401,173 @@ section.local .links .wrapp a.pri.active {
   margin-bottom: 5rem;
 }
 
+.client-carousel {
+  margin-top: 4.8rem;
+}
 
- @media only screen and (max-width: 450px) {
-    .section-clients .building {
-        width: 90vw;
-      }
+.client-carousel .client-carousel-item img {
+  display: inline-block;
+  width: auto;
+}
 
+.client-box {
+  position: relative;
+  color: #999;
+  background-color: #fff;
+  padding: 6rem 3.28rem 3.28rem;
+}
 
-   
+.image-quote {
+  position: absolute;
+  top: 3.28rem;
+  right: 3.28rem;
+}
+
+.client-img {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 -3rem 2.6rem;
+  border-radius: 50%;
+}
+
+.client-title {
+  letter-spacing: 0;
+}
+
+.client-name {
+  font-size: 1.28rem;
+  line-height: 1;
+  color: #000;
+}
+
+.client-description {
+  margin: 1.5rem 0 0;
+  line-height: 1.71em;
+}
+
+.client-carousel .owl-nav {
+  right: 0;
+  top: -7.8rem;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.client-carousel .owl-prev {
+  margin-right: 2rem;
+}
+
+@media (max-width: 991.98px) {
+  .margin {
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-clients .area {
+    width: calc(200% + 20px);
+    margin-left: 7px;
   }
 
-
-
-  @media only screen and (min-width:992px)  {
-
-
- 
-  .section-clients .col-plants .wrapper{
-    margin-top: 80px;
-    
+  .section-clients .area.mobile.select-plants {
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
   }
+}
 
+@media (max-width: 767.98px) {
+  .section-clients .col-building {
+    width: 50%;
+  }
+}
+@media (max-width: 991.98px) {
+  .section-plantas .col-building {
+    width: 300px;
+    min-height: calc(100vh - 156px);
+  }
+}
 
+@media (max-width: 767.98px) {
+  .section-clients .col-building .block {
+    position: relative !important;
+    -webkit-transform: translateY(0) !important;
+    transform: translateY(0) !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .section-clients .col-building .block {
+    padding-bottom: 25px;
+    width: 290px;
+  }
+}
 
+@media (max-width: 767.98px) {
+  .section-clients .building {
+    width: 290px;
+    margin: auto;
+  }
+}
 
+@media (max-width: 991.98px) {
+  .section-clients .building .imagem img {
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-clients .building .label {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-clients .building .label span {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-clients .building .label span:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-clients .building .btn-view {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-clients .col-plants {
+    width: 50%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-clients .col-plants .btn-back {
+    display: block;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-clients .col-plants .wrapper {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-clients .plant .floor {
+    top: 20px;
+    left: 20px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-clients .plant .state li {
+    font-size: 11px;
+  }
 }
